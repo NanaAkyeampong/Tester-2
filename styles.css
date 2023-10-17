@@ -1,0 +1,86 @@
+body {
+  font-family: Poppins, sans-serif;
+  color: grey;
+  background-color: rgb(34, 33, 33);
+}
+
+h1 {
+  color: black;
+  font-weight: bold;
+  padding: 20px;
+  margin: 20px;
+}
+.heading-1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  color: black;
+  height: 200px;
+  margin-left: 100px;
+}
+
+.navbar-brand {
+  font-family: "Tangerine", cursive;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-left: 20px;
+}
+
+.jumbotron {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 300px;
+  margin-top: 120px;
+  padding: 30px;
+}
+
+.btn-primary {
+  background-color: rgb(34, 33, 33);
+  font-size: 18px;
+  border-color: black;
+  border-radius: 30px;
+  margin: 15px;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: black;
+  border-color: black;
+}
+
+.carousel {
+  width: 60%;
+  margin: 90px auto;
+}
+
+.SS img {
+  max-width: 30%;
+  height: 30%;
+  object-position: center;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(5px);
+  }
+}
+
+.btn:hover {
+  animation: shake 1.2s ease infinite;
+}
+
+.container {
+  position: center;
+  max-width: 300px;
+}
